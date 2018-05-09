@@ -1,53 +1,40 @@
 <?php
-// Acceder a: view-source:localhost/script-lemon/trending.php
+// Acceder a: view-source:https://scriptlemontree-smoreno91.c9users.io/trending.php
 $texts =  [
-	"Valen  $105.000<br><br> Están hechos en sintético charolado.<br> Desde la talla 35 a la 40.  ",
-	"Valen $75.000<br><br>Están hechos en sintético charolado.<br> Desde la talla 35 a la 40.",
-	"Valen $120.000<br><br> Están hechos en sintético liso.<br>Desde la talla 35 a la 40.  ",
-	"Valen $95.000<br><br> Están hechos en sintético grabado. <br>Desde la talla 35 a la 40.",
-	"Valen $100.000<br><br> Están hechos en sintético liso. <br>Desde la talla 35 a la 40.",
-	"Valen $70.000<br><br>Están hechos en sintético liso.<br> Desde la talla 35 a la 40.",
-	"Valen $100.000 <br><br>Están hechos en sintético liso con bordado. <br>Desde la talla 35 a la 40.",
-	"Valen $70.000<br><br>Están hechos en sintético charolado. <br>Desde la talla 35 a la 39.",
-	"Valen $85.000<br><br>Están hechos en sintético grabado. <br>Desde la talla 35 a la 40.",
-	"Valen $100.000 <br><br>Están hechos en sintético mate y suela de yute.<br>Desde la talla 35 a la 40.",
-	"Valen $120.000<br><br> Están hechos en sintético liso. <br>Desde la talla 35 a la 40.",
-	"Valen $110.000 <br><br>Están hechos en sintética liso. <br>Desde la talla 35 a la 40.",
-	"Valen $115.000<br><br> Está hecho en sintético liso. ",
-	"Vale $120.000<br><br>Está hecho en sintético liso. ",
-	"Vale $120.000<br><br>Está hecho en sintético liso.",
+"Vale $120.000<br><br>Está hecho en sintético liso.",
+"Valen $115.000<br><br>Está hecho en sintético liso.",
+"Vale $120.000<br><br>Está hecho en sintético liso.",
+"Valen $110.000<br><br>Están hechos en sintética liso.<br>Desde la talla 35 a la 40.",
+"Valen $100.000<br><br>Están hechos en sintético mate y suela de yute.<br>Desde la talla 35 a la 40.",
+"Valen $85.000<br><br>Están hechos en sintético grabado.<br>Desde la talla 35 a la 40.",
+"Valen $100.000<br><br>Están hechos en sintético liso con bordado.<br>Desde la talla 35 a la 40.",
+"Valen $75.000<br><br>Están hechos en sintético charolado.<br>Desde la talla 35 a la 40.",
+"Valen $100.000<br><br>Están hechos en sintético liso.<br>Desde la talla 35 a la 40.",
+"Valen $95.000<br><br>Están hechos en sintético grabado.<br>Desde la talla 35 a la 40.",
+"Valen $120.000<br><br>Están hechos en sintético liso.<br>Desde la talla 35 a la 40.",
+"Valen $70.000<br><br>Están hechos en sintético charolado.<br>Desde la talla 35 a la 39.",
+"Valen $120.000<br><br>Están hechos en sintético liso.<br>Desde la talla 35 a la 40.",
+"Valen $70.000<br><br>Están hechos en sintético liso.<br>Desde la talla 35 a la 40.",
+"Valen  $105.000. <br><br>Están hechos en sintético charolado.<br>Desde la talla 35 a la 40.",
 ];
-/**
-3121: Valen  $105.000<br><br> Están hechos en sintético charolado.<br> Desde la talla 35 a la 40.  
-3145: Valen $75.000<br><br>Están hechos en sintético charolado.<br> Desde la talla 35 a la 40.
-3163: Valen $120.000<br><br> Están hechos en sintético liso.<br>Desde la talla 35 a la 40.  
- 3171: Valen $95.000<br><br> Están hechos en sintético grabado. <br>Desde la talla 35 a la 40.
-3186: Valen $100.000<br><br> Están hechos en sintético liso. <br>Desde la talla 35 a la 40.
-3214: Valen $70.000<br><br>Están hechos en sintético liso.<br> Desde la talla 35 a la 40.
-3255: Valen $100.000 <br><br>Están hechos en sintético liso con bordado. <br>Desde la talla 35 a la 40.
- 3263: Valen $70.000<br><br>Están hechos en sintético charolado. <br>Desde la talla 35 a la 39.
- 3331: Valen $85.000<br><br>Están hechos en sintético grabado. <br>Desde la talla 35 a la 40.
- 3389: Valen $100.000 <br><br>Están hechos en sintético mate y suela de yute.<br>Desde la talla 35 a la 40.
-3410: Valen $120.000<br><br> Están hechos en sintético liso. <br>Desde la talla 35 a la 40.
-3501: Valen $110.000 <br><br>Están hechos en sintética liso. <br>Desde la talla 35 a la 40.
-3593: Valen $115.000<br><br> Está hecho en sintético liso.
-3621: Vale $120.000<br><br>Está hecho en sintético liso.
-3631: Vale $120.000<br><br>Está hecho en sintético liso.
-*/
+
 
 $photos = [
-	"T1.png",
-	"T2.png",
-	"T3.png",
-	"T4.png",
-	"T5.png",
-	"T6.png",
-	"T7.png",
-	"T8.png",
-	"T9.png",
-	"T10.png",
-	"T11.png",
-	"T12.png",
+"T1.png",
+"T2.png",
+"T3.png",
+"T4.png",
+"T5.png",
+"T6.png",
+"T7.png",
+"T8.png",
+"T9.png",
+"T10.png",
+"T11.png",
+"T12.png",
+"T13.png",
+"T14.png",
+"T15.png",
 ];
 
 ?>
